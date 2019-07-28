@@ -1,5 +1,5 @@
-# Mikrotik
-Mikrotik RouterOS Scripts & Tips
+# Mikrotik RouterOS
+{ Tips, Tools, Commands, Scripts ... }
 
 Commands manual:
 - https://wiki.mikrotik.com/wiki/Manual:Scripting#Commands
@@ -12,7 +12,7 @@ Commands manual:
 ```
 
 ## DynDNS IP Update
-* /scripts/dyndns_ip_update.ros
+* /scripts/dyndns_ip_update.rsc
 
 API Resources
 - Request details http://www.dyndns.com/developers/specs/syntax.html
@@ -21,7 +21,7 @@ API Resources
 Installing
 * go to "System/Scripts"
 * create a new script "dynupdate" in your RouterOS
-* copy and paste the content of ``/scripts/dyndns_ip_update.ros``
+* copy and paste the content of ``/scripts/dyndns_ip_update.rsc``
 * set the correct values for the variables: *dynUser*, *dynSKey*, *dynHost* ...
 
 Scheduling
